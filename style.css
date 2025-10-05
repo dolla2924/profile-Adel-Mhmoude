@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #ebebea;
+    /* heafer   ثابت مكانو في تنقل الصفحه   جعل */
+    position: fixed; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;  /*header مفيش حاجه تغطي علي ال  */
+}
+.logo {
+    text-decoration: none;
+    font-size: 39px;
+    color: #004cff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 700;
+}
+.nav_bar a{
+    text-decoration: none;
+    margin: 30px;
+    font-size: 25px;
+    color: #004cff;
+    font-weight: 900;    
+    text-transform: capitalize;
+}
+.nav_bar a:hover{
+    color: #91ADC8;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url("img3.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.main{
+    padding: 200px 100px;
+}
+.main h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.main h1{
+    color: blue;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 1000;
+    letter-spacing: 1.1px;
+    margin-bottom: 30px;
+}
+.main h3{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.main .btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+.main .btn:hover{
+    font-size: 20px;
+}
+.main .icons{
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main .icons a{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+.main .icons a:hover{
+    font-size: 28px;
+}
+.imge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+    overflow: hidden;
+}
+
+.imge img{
+    width: 57%; 
+}
+.container{
+    width: 100%;
+}
+.titel{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+}
+.titel h1{
+    color: blue;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 100px 0 50px 0 ;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px;
+    transition: .5s ease;  
+    border-radius: 50px;
+
+}
+.card i{
+    font-size: 100px;
+    margin: 5% 35%;
+    color: blue
+}
+.card h2{
+    display:flex;
+    justify-content: center;
+    color: blue;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+ 
+}
+.card h5{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px 7px;
+    margin: 10px;
+}
+.card:hover{
+    width: 30.5%;
+}
+.project{
+    background-color:black ;
+}
+.project_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project_card{
+    width: 30%;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5);
+    margin-top: 70px;
+    border-radius: 50px;   
+    background-color: white;
+    transition: .5s;
+}
+.project_card .imges img {
+    width: 100%;
+}
+.project_card .contant h3{
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.project_card .contant a{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.project_card:hover{
+    width: 30.5%;
+}
+.cards .card .contact{
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.cards .card .contact_h5{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+.footer .Copyright{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer .Copyright h2{
+    color: white;
+}
+.footer .Copyright .h3{
+    color: blue;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.footer .icon a{  
+    color: white;
+    font-size: 25px;
+}
+@media (max-width: 1024px) {
+    /* Header Navbar */
+    .nav_bar a{
+        margin: 15px;
+        font-size: 20px;
+    }
+    .logo {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    /* Main Section */
+    .header {
+        flex-direction: column; /* جعل المحتوى عمودياً */
+        height: auto; /* لضبط الارتفاع حسب المحتوى */
+        padding-top: 80px; /* مسافة بعد الهيدر الثابت */
+    }
+    .main{
+        padding: 50px 30px; /* تقليل التباعد */
+        text-align: center; /* توسيط محتوى النص */
+    }
+    .main h1 {
+        font-size: 35px;
+    }
+    .imge {
+        order: -1; /* وضع الصورة قبل النص في العرض العمودي */
+        padding: 20px;
+    
+    }
+    .imge img {
+        width: 100%; 
+    }
+    /* Services & Projects Cards */
+    .cards, .project_info {
+        gap: 20px;
+    }
+    .card, .project_card {
+        width: 45%; /* بطاقتان في الصف */
+        border-radius: 30px;
+    }
+    .card:hover, .project_card:hover {
+        width: 46%; /* تعديل الهوفر بما يتناسب مع العرض الجديد */
+        transform: scale(1.02);
+    }
+    .card i {
+        font-size: 80px;
+        margin: 5% auto;
+    }
+    /* Contact Section */
+    .cards .card .contact_h5 {
+        font-size: 25px;
+    }
+
+}
+
+/* الشاشات الصغيرة (Mobile Phones) - من 767 بكسل وأصغر */
+@media (max-width: 767px) {
+    /* Header Navbar */
+    header {
+        flex-direction: column; /* جعل اللوجو والنافبار عمودياً */
+        align-items: center;
+        position: static; /* يمكن جعله غير ثابت في الموبايل لتوفير مساحة */
+    }
+    .logo {
+        padding: 10px 0;
+    }
+    .nav_bar {
+        padding-bottom: 10px;
+    }
+    .nav_bar a{
+        margin: 10px;
+        font-size: 18px;
+    }
+    /* Main Section */
+    .header {
+        padding-top: 0; 
+    }
+    .main{
+        padding: 30px 15px; 
+    }
+    .main h1 {
+        font-size: 30px;
+    }
+    .imge img {
+        width: 90%; 
+    }
+    /* Services & Projects Cards */
+    .titel h1 {
+        font-size: 30px;
+        margin: 50px 0 30px 0;
+    }
+    .card, .project_card {
+        width: 90%; /* بطاقة واحدة في الصف */
+        margin: 10px 0;
+    }
+    .card:hover, .project_card:hover {
+        width: 92%;
+        transform: scale(1.01);
+    }
+    .card i {
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .card h2 {
+        font-size: 24px;
+    }
+    .card h5 {
+        font-size: 16px;
+    }
+    /* Footer */
+    .footer {
+        flex-direction: column; /* جعل محتوى الفوتر عمودياً */
+        padding: 20px 10px;
+        align-items: center;
+    }
+    .footer .Copyright {
+        margin-bottom: 10px;
+    }
+    .footer .Copyright h2 {
+        font-size: 20px;
+    }
+    .footer .Copyright .h3 {
+        font-size: 22px;
+    }
+}
