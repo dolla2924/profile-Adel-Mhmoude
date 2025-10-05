@@ -348,7 +348,7 @@ header{
         justify-content: center;
     }
     .card h2 {
-        font-size: 24px;
+        font-size: 19px;
     }
     .card h5 {
         font-size: 16px;
@@ -370,3 +370,4 @@ header{
     }
 
 }
+
