@@ -6,12 +6,9 @@
 header{
     width: 100%;
     background-color: #ebebea;
-    /* heafer   ثابت مكانو في تنقل الصفحه   جعل */
-    position: fixed; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 999;  /*header مفيش حاجه تغطي علي ال  */
 }
 .logo {
     text-decoration: none;
@@ -82,7 +79,7 @@ header{
     text-decoration: none;
 }
 .main .btn:hover{
-    font-size: 20px;
+    font-size: 22px;
 }
 .main .icons{
     margin: 25px 0;
@@ -116,15 +113,65 @@ header{
     display: flex;
     justify-content: center;
     margin: 15px;
-    
+    align-items: center;    
 }
 .titel h1{
     color: blue;
     font-size: 40px;
     font-weight: 800;
     letter-spacing: 2px;
-    margin: 100px 0 50px 0 ;
+    margin: 9Opx 0 50px 0 ;
 }
+/* From Uiverse.io by d4niz */ 
+.contactButton {
+      text-decoration: none;
+      bottom: 50%;
+      left: 40%;
+      margin-top: 9%;
+  background: blue;
+  color: white;
+  font-family: inherit;
+  padding: 0.45em;
+  padding-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3em;
+}
+
+.iconButton {
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.contactButton:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em #5566c2;
+}
+
+.contactButton:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em #5566c2;
+}
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -289,7 +336,7 @@ header{
     }
     .card i {
         font-size: 80px;
-        margin: 5% auto;
+        margin: auto;
     }
     /* Contact Section */
     .cards .card .contact_h5 {
@@ -368,7 +415,8 @@ header{
     .footer .Copyright .h3 {
         font-size: 22px;
     }
-
+    .contactButton{
+        font-size: 12px;
+        left: 22%;
+    }
 }
-
-
