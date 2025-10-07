@@ -417,6 +417,8 @@ header{
     }
     .contactButton{
         font-size: 12px;
-        left: 22%;
+        left: 20%;
+        margin: 1px;
     }
 }
+
