@@ -327,7 +327,7 @@ header{
     }
     .button_msg a:hover{
          margin: 16px;
-        font-size: 22px;
+        font-size: 19px;
     }
     .logo {
         font-size: 30px;
@@ -458,3 +458,4 @@ header{
         margin: 1px;
     }
 }
+
