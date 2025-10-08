@@ -379,7 +379,7 @@ header{
     /* Services & Projects Cards */
     .titel h1 {
         font-size: 30px;
-        margin: 50px 0 30px 0;
+        margin: 34px 0 30px 0;
     }
     .card, .project_card {
         width: 90%; /* بطاقة واحدة في الصف */
@@ -421,4 +421,5 @@ header{
         margin: 1px;
     }
 }
+
 
