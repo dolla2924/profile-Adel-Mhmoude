@@ -30,6 +30,7 @@ header{
     color: #91ADC8;
 }
 .header{
+    background: url(img3.jpg);
     display: flex;
     width: 100%;
     height: 100vh;
@@ -108,6 +109,7 @@ header{
 }
 .container{
     width: 100%;
+    background-color: black;
 }
 .titel{
     display: flex;
@@ -171,8 +173,32 @@ header{
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em #5566c2;
 }
-
+.msg {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+}
+.button_msg a{
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 300px;
+    background-color: #004cff;
+    border-radius: 50px;
+    transition: .2s;
+}
+.button_msg a:hover{
+    padding: 16px;
+    font-size: 27px;
+    margin: 15px 275px;
+}
 .cards{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -181,7 +207,7 @@ header{
 .card{
     width: 30%;
     background-color: white;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 5);
     margin: 10px;
     padding: 10px;
     transition: .5s ease;  
@@ -214,7 +240,7 @@ header{
     width: 30.5%;
 }
 .project{
-    background-color:black ;
+    background-color:white;
 }
 .project_info{
     display: flex;
@@ -226,7 +252,7 @@ header{
     width: 30%;
     overflow: hidden;
     margin: 20px;
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 15);
     margin-top: 70px;
     border-radius: 50px;   
     background-color: white;
@@ -292,19 +318,21 @@ header{
 }
 @media (max-width: 1024px) {
     /* Header Navbar */
+    .button_msg a{
+        margin: 10px 0;
+    }
     .nav_bar a{
-        margin: 15px;
+        margin: 20px 15px;
         font-size: 20px;
+    }
+    .button_msg a:hover{
+         margin: 16px;
+        font-size: 22px;
     }
     .logo {
         font-size: 30px;
         font-weight: 900;
         letter-spacing: 1px;
-    }
-        .contactButton{
-        font-size: 12px;
-        left: 32%;
-        margin: 1px;
     }
     /* Main Section */
     .header {
@@ -347,7 +375,11 @@ header{
     .cards .card .contact_h5 {
         font-size: 25px;
     }
-
+    .contactButton{
+        font-size: 12px;
+        left: 34%;
+        margin: 1px;
+    }
 }
 
 /* الشاشات الصغيرة (Mobile Phones) - من 767 بكسل وأصغر */
@@ -426,9 +458,3 @@ header{
         margin: 1px;
     }
 }
-
-
-
-
-
-
