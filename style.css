@@ -320,10 +320,11 @@ header{
     /* Header Navbar */
     .button_msg a{
         margin: 10px 0;
+        font-size: 18px;
     }
     .nav_bar a{
         margin: 20px 15px;
-        font-size: 20px;
+        font-size: 19px;
     }
     .button_msg a:hover{
          margin: 16px;
@@ -458,4 +459,5 @@ header{
         margin: 1px;
     }
 }
+
 
