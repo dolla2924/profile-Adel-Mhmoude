@@ -301,6 +301,11 @@ header{
         font-weight: 900;
         letter-spacing: 1px;
     }
+        .contactButton{
+        font-size: 12px;
+        left: 20%;
+        margin: 1px;
+    }
     /* Main Section */
     .header {
         flex-direction: column; /* جعل المحتوى عمودياً */
@@ -421,5 +426,6 @@ header{
         margin: 1px;
     }
 }
+
 
 
