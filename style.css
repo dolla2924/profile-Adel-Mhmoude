@@ -312,7 +312,7 @@ header{
     font-size: 25px;
     text-transform: capitalize;
 }
-.footer .icon a{  
+.footer .icons a{  
     color: white;
     font-size: 25px;
 }
@@ -459,5 +459,4 @@ header{
         margin: 1px;
     }
 }
-
 
