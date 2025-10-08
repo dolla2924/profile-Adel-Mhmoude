@@ -191,6 +191,7 @@ header{
     background-color: #004cff;
     border-radius: 50px;
     transition: .2s;
+    cursor: pointer;
 }
 .button_msg a:hover{
     padding: 16px;
@@ -273,7 +274,7 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     margin-bottom: 10px;
 }
@@ -318,6 +319,9 @@ header{
 }
 @media (max-width: 1024px) {
     /* Header Navbar */
+    .project_card .contant a{
+        font-size: 15px;
+    }
     .button_msg a{
         margin: 10px 0;
         font-size: 18px;
