@@ -317,6 +317,53 @@ header{
     color: white;
     font-size: 25px;
 }
+.about{
+    display: block;
+    padding: 100px;
+    background-color:white;
+    text-align: center;
+    margin: 5% 15%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 15);
+    border-radius: 50px;
+}
+.about h1{
+    color: black;
+    font-size: 25px;
+    word-spacing: 1px;
+    padding-bottom: 5px;
+}
+.about span{
+    font-size: 29px;
+    color: blue;
+}
+.about h2{
+    font-size: 30px;
+    color: red;
+}
+@media (max-width: 600px) {
+    
+    .about {
+        padding: 25px  25px; 
+    }
+    
+    .about h1 {
+        font-size: 18px; 
+        text-align: right; 
+        line-height: 1.6;
+    }
+    
+    .about span {
+        font-size: 20px; 
+    }
+    
+    .about h2 {
+        font-size: 22px; 
+        text-align: center;
+    }
+}
 @media (max-width: 1024px) {
     /* Header Navbar */
     .project_card .contant a{
@@ -463,4 +510,5 @@ header{
         margin: 1px;
     }
 }
+
 
