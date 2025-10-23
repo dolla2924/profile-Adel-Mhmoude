@@ -1,8 +1,20 @@
-const bottonID =document.getElementById("botton1") ; 
-const btnID1 =document.getElementById("btn1") ; 
-    btnID1.style.display="none";
+const toggleButton = document.getElementById("botton1");
+const toggleContent = document.getElementById("btn1");
 
-bottonID.addEventListener('click',function(){
-    bottonID.style.display="none";
-    btnID1.style.display="block";
-})
+if (toggleContent) {
+    toggleContent.style.display = "none";
+}
+
+if (toggleButton) {
+    toggleButton.addEventListener('click', function() {
+        if (toggleContent.style.display === "none") {
+            toggleContent.style.display = "block";
+            toggleButton.textContent = "إخفاء المزايا (عرض أقل) ▲";
+            toggleButton.classList.add('is-open');
+        } else {
+            toggleContent.style.display = "none";
+            toggleButton.textContent = "لماذا نحن خيارك الصحيح؟ (عرض المزيد) ▼";
+            toggleButton.classList.remove('is-open');
+        }
+    });
+}
