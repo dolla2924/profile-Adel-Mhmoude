@@ -4,216 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adel_mahmoud</title>
+    <title>عادل محمود | مطور واجهات أمامية (Front-end Developer)</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header id="header">
-        <a class="logo" href="#">AS</a>
-        <nav class="nav_bar">
+    <header class="main-header" id="header">
+        <a class="logo" href="#">ADEL MAHMOUD</a>
+        <nav class="nav-bar">
+            <a href="#about">نبذة عني</a>
             <a href="#service">الخدمات</a>
             <a href="#project">المشاريع</a>
-            <a href="#contact">التواصل</a>
-            <a href="#about">نبذه عني</a>
+            <a href="#contact">للتواصل</a>
         </nav>
     </header>
 
-    <section class="header">
-        <div class="main">
-            <h5>مرحباً، أنا عادل محمود</h5>
-            <h1>مطور واجهات أمامية (Front-end Developer)</h1>
-            <h3>مطور ويب</h3>
-            <a href="#project" class="btn">مشاهده أعمالي </a>
-            <div class="icons">
-                <a href="https://www.facebook.com/share/19muBGMLyR/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.me/201002924634"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://github.com/dolla2924"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/adel-mahmoud-550553372/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/adelmahmoud2924?igsh=cW1xYnVsb3RldmFv"><i
-                        class="fa-brands fa-instagram"></i></a>
+    <section class="hero-section">
+        <div class="hero-content">
+            <p class="greeting-text">مرحباً، أنا</p>
+            <h1>عادل محمود</h1>
+            <h2 class="main-specialty">مطور واجهات أمامية (Front-end Developer)</h2>
+            <p class="tagline">أحول الأفكار إلى تجارب ويب تفاعلية وسريعة الاستجابة.</p>
+
+            <a href="#project" class="cta-button">مشاهدة أعمالي</a>
+
+            <div class="social-links">
+                <h3>تابعني:</h3>
+                <a href="https://www.facebook.com/share/19muBGMLyR/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/201002924634" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/dolla2924" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adel-mahmoud-550553372/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/adelmahmoud2924?igsh=cW1xYnVsb3RldmFv" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="icons">
-                <a href=""><i class="fa-brands fa-html5" style="color:red; font-size: 40px;"></i></a>
-                <a href=""><i class="fa-brands fa-css3" style="color:blue; font-size: 40px"></i></a>
-                <a href=""><i class="fa-brands fa-js" style="color: gold; font-size: 40px"></i></a>
-                <a href=""><i class="fa-brands fa-c" style="color:navy ; font-size: 40px"></i></a>
-                <a href=""><i class="fa-brands fa-python" style="color:greenyellow; font-size: 40px"></i></a>
+
+            <div class="tech-icons">
+                <h3>أستخدم:</h3>
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js-square" title="JavaScript"></i>
+                <i class="fas fa-microchip" title="C/C++"></i>
+                <i class="fab fa-python" title="Python"></i>
             </div>
         </div>
-        <div class="imge">
-            <img src="img2.png" alt="صورة عادل محمود">
+
+        <div class="hero-image">
+            <img src="img2.png" alt="صورة عادل محمود - مطور ويب">
         </div>
     </section>
 
-    <section class="container">
-        <div class="titel" id="service">
-            <h1>الخدمات</h1>
-        </div>
-        <div class="cards">
-            <div class="card">
-                <i class="fa-solid fa-code"></i>
-                <h2>ما يمكنني تقديمه لك</h2>
-                <h5>أقدم مجموعة من خدمات تطوير الواجهات الأمامية للمساعدة في إحياء أفكارك. سواء كنت تبدأ مشروعاً جديداً
-                    أو تحسن مشروعاً قائماً، أركز على إنشاء واجهات سريعة، متجاوبة (Responsive)، وسهلة الاستخدام تقدم
-                    تجارب مستخدم رائعة.</h5>
+    <section class="services-section" id="service">
+        <h2 class="section-title">الخدمات التي أقدمها</h2>
+        <p class="section-subtitle">حلول متكاملة لتطوير الواجهات الأمامية التي تبهر المستخدمين.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>تطوير الواجهة الأمامية الشامل</h3>
+                <p>أحول تصميماتك إلى كود وظيفي نظيف باستخدام HTML, CSS, و JavaScript. أركز على الكود المنظم وقابلية الصيانة.</p>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-desktop"></i>
-                <h2>تطوير واجهة المستخدم (UI)</h2>
-                <h5>أقوم ببناء واجهات مستخدم نظيفة وحديثة باستخدام HTML وCSS وإطارات عمل JavaScript مثل React. أركز على
-                    قابلية الاستخدام والاتساق البصري لضمان أن يبدو منتجك ويشعرك بالتميز.</h5>
+            <div class="service-card">
+                <i class="fas fa-desktop"></i>
+                <h3>واجهات مستخدم (UI) عصرية</h3>
+                <p>أبني واجهات مستخدم نظيفة وحديثة مع التركيز على سهولة الاستخدام والاتساق البصري، لضمان تجربة مميزة.</p>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-mobile-screen"></i>
-                <h2>تصميم متجاوب (RD)</h2>
-                <h5>موقعك سيبدو رائعاً على جميع الأجهزة. من الهاتف المحمول إلى سطح المكتب، أتأكد من أن تخطيط موقعك يتكيف
-                    بسلاسة مع أي حجم شاشة للحصول على أفضل تجربة للمستخدم.</h5>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>تصميم متجاوب بالكامل (Responsive)</h3>
+                <p>أضمن أن موقعك يبدو رائعاً ويعمل بكفاءة على جميع الأجهزة (هاتف، تابلت، حاسوب)، مما يوفر أفضل تجربة للمستخدم.</p>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-bolt-lightning"></i>
-                <h2>تحسين الأداء</h2>
-                <h5>مواقع سريعة التحميل = مستخدمون سعداء. أقوم بتحسين الأصول، وتقليل أوقات التحميل، وتعزيز أداء الواجهة
-                    الأمامية للحفاظ على تفاعل المستخدمين وقوة محركات البحث (SEO) لديك.</h5>
+            <div class="service-card">
+                <i class="fas fa-tachometer-alt"></i>
+                <h3>تحسين سرعة وأداء الموقع</h3>
+                <p>أعمل على تقليل أوقات التحميل وتحسين الأصول، مما يعزز من أداء الواجهة الأمامية ويدعم قوة محركات البحث (SEO).</p>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <h2>صيانة وتحديثات الويب</h2>
-                <h5>حافظ على موقعك محدثاً وآمناً. أقدم دعماً مستمراً، وإصلاحات للأخطاء، وتحديثات للميزات للتأكد من بقاء
-                    موقعك مواكباً للجديد ويعمل بسلاسة.</h5>
+            <div class="service-card">
+                <i class="fas fa-wrench"></i>
+                <h3>صيانة ودعم فني مستمر</h3>
+                <p>أقدم دعماً مستمراً، وإصلاحات للأخطاء، وتحديثات دورية للميزات لضمان بقاء موقعك يعمل بسلاسة وأمان.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-roller"></i>
+                <h3>تفاعلات وحركات جذابة</h3>
+                <p>إضافة حركات (Animations) وتأثيرات بصرية سلسة ومدروسة لجعل تجربة المستخدم أكثر تفاعلية ومتعة.</p>
             </div>
         </div>
     </section>
 
-    <section class="project">
-        <div class="titel" id="project">
-            <h1>المشاريع</h1>
+    <section class="projects-section" id="project">
+        <h2 class="section-title">أبرز المشاريع</h2>
+        <p class="section-subtitle">شاهد أمثلة من أعمالي التي حولت فيها الأفكار إلى واقع رقمي متجاوب.</p>
 
-        </div>
-        <div class="project_info">
-            <div class="project_card">
-                <div class="imges">
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
                     <img src="image1.png" alt="صورة مشروع متجر إكسسوارات">
                 </div>
-                <div class="contant">
+                <div class="project-info">
                     <h3>متجر إكسسوارات</h3>
-                    <a href="https://dolla2924.github.io/phone_style/">زياره الموقع</a>
+                    <p>واجهة متجر إلكتروني جذابة ومستجيبة للهواتف. (HTML, CSS, JS)</p>
+                    <a href="https://dolla2924.github.io/phone_style/" target="_blank" class="project-link">زيارة الموقع <i class="fas fa-arrow-left"></i></a>
                 </div>
             </div>
-            <div class="project_card">
-                <div class="imges">
+            <div class="project-card">
+                <div class="project-image">
                     <img src="image3.png" alt="صورة مشروع متجر أحذية">
                 </div>
-                <div class="contant">
-                    <h3>متجر أحذية</h3>
-                    <a href="https://dolla2924.github.io/Adidas-Store/">زياره الموقع</a>
+                <div class="project-info">
+                    <h3>متجر أحذية (Adidas Store)</h3>
+                    <p>تصميم واجهة مستخدم لمتجر أحذية مع التركيز على عرض المنتجات بشكل احترافي.</p>
+                    <a href="https://dolla2924.github.io/Adidas-Store/" target="_blank" class="project-link">زيارة الموقع <i class="fas fa-arrow-left"></i></a>
                 </div>
             </div>
-            <div class="project_card">
-                <div class="imges">
+            <div class="project-card">
+                <div class="project-image">
                     <img src="image2.png" alt="صورة مشروع بيانات منتج">
                 </div>
-                <div class="contant">
-                    <h3>بيانات منتج</h3>
-                    <a href="https://dolla2924.github.io/my_shop_culcolet/">زياره الموقع</a>
+                <div class="project-info">
+                    <h3>نظام إدارة منتجات مصغر</h3>
+                    <p>واجهة برمجية لإدخال وعرض بيانات المنتجات وحساب الأسعار. (JavaScript)</p>
+                    <a href="https://dolla2924.github.io/my_shop_culcolet/" target="_blank" class="project-link">زيارة الموقع <i class="fas fa-arrow-left"></i></a>
                 </div>
             </div>
-            <div class="project_card">
-                <div class="imges">
+            <div class="project-card">
+                <div class="project-image">
                     <img src="image4.png" alt="صورة مشروع آلة حاسبة">
                 </div>
-                <div class="contant">
-                    <h3>آلة حاسبة</h3>
-                    <a href="https://dolla2924.github.io/Calculatorr/">زياره الموقع</a>
+                <div class="project-info">
+                    <h3>آلة حاسبة متقدمة</h3>
+                    <p>تطبيق آلة حاسبة تفاعلي مبني بالكامل على JavaScript.</p>
+                    <a href="https://dolla2924.github.io/Calculatorr/" target="_blank" class="project-link">زيارة الموقع <i class="fas fa-arrow-left"></i></a>
                 </div>
             </div>
-            <div class="project_card">
-                <div class="imges">
+            <div class="project-card">
+                <div class="project-image">
                     <img src="image5.png" alt="صورة مشروع شريط جانبي">
                 </div>
-                <div class="contant">
-                    <h3>شريط جانبي</h3>
-                    <a href="https://dolla2924.github.io/side-bar/#">زياره الموقع</a>
-                </div>
-            </div>
-            <div class="project_card">
-                <div class="imges">
-                    <img src="image6.png" alt="صورة مشروع مطعم">
-                </div>
-                <div class="contant">
-                    <h3>مطعم</h3>
-                    <a href="https://dolla2924.github.io/restaurannt2/">زياره الموقع</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="msg">
-        <div class="titel">
-            <h1>ابداء الرحله </h1>
-        </div>
-        <div class="button_msg">
-            <a id="botton1">ليه احنا اختيارك الصح ؟</a>   
-            <div id="btn1">
-                <a>برمجه زي م نت عايز </a>
-                <a>الأداء للموقع صاروخي</a>
-                <a>صيانة وتحديثات دوريا</a>
-                <a>سعر يبدا من فنجان قهوه</a>
-    </section>
-    <section>
-        <div class="titel" id="about">
-            <h1>نبذة عني</h1>
-        </div>
-        <div class="about">
-            <h1>أهلاً أنا <span>عادل محمود جاب الله</span>، شاب طموح من <span>مصر</span>، وتحديدًا من محافظة<span>
-                    البحيرة</span> .ولدتُ عام 2006 .</h1>
-            <h1> بدأت مسيرتي التعليمية بتخصص عملي، حيث تخرجت في <span> المدارس الفنية</span> ، قسم
-                <span>كهرباء</span>. حالياً أواصل دراستي الأكاديمية في <span>جامعة برج العرب التكنولوجية </span>، متعمقاً
-                في مجال المستقبل من خلال دراسة <span> تكنولوجيا المعلومات <h2>(IT)</h2></span>
-            </h1>
-        </div>
-    </section>
-                <hr>
-                <hr>
-    <section>
-        <div class="titel" id="contact">
-            <h1>لنتعاون معاً</h1>
-        </div>
-        <div class="cards">
-            <div class="card" style=" box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 5);">
-                <i class="fa-solid fa-phone" style="font-size: 80px; margin: 5% 35% ; color: blue; "></i>
-                <h2 class="contact">الهاتف</h2>
-                <h5 class="contact_h5">+201002924634</h5>
-            </div>
-            <div class="card" style=" box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 5);">
-                <i class="fa-regular fa-envelope" style="font-size: 80px; margin: 5% 35% ; color: blue;"></i>
-                <h2 class="contact">البريد الإلكتروني</h2>
-                <h5 class="contact_h5">dolla2924@gmail.com</h5>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="Copyright">
-            <h2>حقوق النشر@</h2>
-            <h2 class="h3">عادل محمود</h2>
-        </div>
-        <div class="icons">
-            <a href="https://www.facebook.com/share/19muBGMLyR/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://wa.me/201002924634"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://github.com/dolla2924"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/adel-mahmoud-550553372/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/adelmahmoud2924?igsh=cW1xYnVsb3RldmFv"><i
-                    class="fa-brands fa-instagram"></i></a>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
-
-</body>
-
-</html>
-
-
-
+                <div class="project-info">
+                    <h3>شريط تنقل جانبي تفاعلي (Sidebar)</h3>
+                    <p>تطبيق لتصميم شريط جانبي عصري ومتحرك للتنقل في تطبيقات ال
